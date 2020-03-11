@@ -11,7 +11,7 @@
     <div class="pay-left">
       <p>订单将在2小时后关闭，请及时付款</p>
       <div class="img-box">
-        <img :src="myPayUrl" alt="" />
+        <img src="" alt="支付" />
       </div>
       <p>请使用微信扫一扫完成支付</p>
     </div>
@@ -37,13 +37,10 @@
 </template>
 <script>
 import { mapState, mapActions } from 'vuex'
-import MyPayUrl from './img/my-pay.jpg'
 export default {
   name: 'WechatPay',
   data() {
-    return {
-      myPayUrl: MyPayUrl,
-    }
+    return {}
   },
   methods: {
     ...mapActions(['setOrder', 'clearOrder']),
