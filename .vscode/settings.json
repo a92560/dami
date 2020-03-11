@@ -1,0 +1,5 @@
+{
+  "eslint.autoFixOnSave": true, // 每次保存的时候将代码按eslint格式进行修复
+  "editor.detectIndentation": false, //  #让prettier使用eslint的代码格式进行校验
+  "eslint.autoFixOnSave": false // 每次保存的时候将代码按eslint格式进行修复
+}
