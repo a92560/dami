@@ -19,7 +19,7 @@
     "less-loader": "^5.0.0",
     "mockjs": "^1.1.0",
     "path-to-regexp": "^6.1.0",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "sass-loader": "^8.0.2",
     "socket.io-client": "^2.3.0",
     "vue": "^2.6.10",
